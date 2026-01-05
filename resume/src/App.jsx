@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Welcome to your App</h1>
-      {/* Example usage of Clerk user */}
+     
+     
       {user.isSignedIn ? <p>Hello, {user.user.firstName}</p> : <Navigate to="/signin" />}
       <Outlet />
     </div>
